@@ -27,4 +27,5 @@ document.querySelector('div').innerHTML = `${(person && person.name) || ''}`
 /*
 1. Why is the div's innerHTML set to `${(person && person.name) || ''}`? 
 2. Should the result log the whole object and also the vale of the name propery?
+3. Why is the 'or' operator there with an empty string on the other side?
 */
